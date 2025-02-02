@@ -10,23 +10,23 @@ using namespace std;
 
 namespace nsYoung
 {
-    int age = 10;
+	int age = 10;
 }
 
 namespace nsOld
 {
-    int age = 20;
+	int age = 20;
 }
 
 // using namespace nsYoung;
 
 int main()
 {
-    int age = 30;
-    cout << age << endl;
-    cout << nsYoung::age << endl;
-    // cout << age << endl;
-    cout << nsOld::age << endl;
+	int age = 30;
+	cout << age << endl;
+	cout << nsYoung::age << endl;
+	// cout << age << endl;
+	cout << nsOld::age << endl;
 
-    return 0;
+	return 0;
 }
